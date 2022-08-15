@@ -1,0 +1,97 @@
+
+.caption{
+	position: absolute;
+	top: 150px;
+}
+
+.h-300{height: 300px;}
+.h-500{height: 500px;}
+.h-700{height: 700px;}
+.w-100{width: 100%;}
+.mt-150{margin-top: 150px;}
+.text{font-size: 20px;}
+.text-16{font-size:16px; }
+.big-footer-color{background-color: rgba(15, 57, 129);}
+.footer{background-color: rgba(9, 46, 112);}
+.a-color{background-color: rgb(229, 234, 243);}
+.c-color{background-color: rgb(229, 234, 243);}
+.menu-color{background-color: rgb(243, 243, 243);}
+
+
+.container{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.portfolio-menu{
+	text-align: center;
+}
+
+.portfolio-menu ul li{
+list-style-type: none;
+display: inline-block;
+padding: 10px 20px;
+border: 1px solid grey;
+cursor: pointer;
+transition: 1s;
+}
+
+.portfolio-menu ul li:hover{
+	background-color: grey;
+	color: white
+}
+
+.item-img{
+	height: 300px;
+	width: 280px;
+	margin: 10px;
+}
+
+
+.portfolio-item{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+li.active{
+	background-color: grey;
+	color:white;
+}
+
+.bottom{
+	border-bottom: 1px solid black;
+
+}
+.bottom-cheif{
+	border-bottom: 1px solid black;
+	
+
+}
+.title{
+	font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 40px;
+
+}
+.content-pera{
+	    display: block;
+	    margin: 30px 21px;
+	    padding: 10px;
+	    font-size: 20px;
+}
+
+.form-control{
+	width: 500px;
+}
+.form{
+	margin-left: 80px;
+}
+.img2{
+	 position: absolute;
+  width: 250px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
